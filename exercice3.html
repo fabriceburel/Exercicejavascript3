@@ -6,8 +6,10 @@
   </head>
   <body>
     <script>
-      var name = 'bonjour, ' + prompt('saisissez votre prénom :')
-      alert (name);
+      var name = prompt('saisissez votre prénom : ');
+      if (name){
+        alert ('bonjour, ' + name);
+      }
     </script>
   </body>
 </html>
